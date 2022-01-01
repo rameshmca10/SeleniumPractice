@@ -1,0 +1,5 @@
+Armstrong
+Prime
+Factorial
+Fibonacci
+Odd/Even
