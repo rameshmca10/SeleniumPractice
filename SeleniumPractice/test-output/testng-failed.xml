@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="week5.day1.Attributes">
+      <class name="runner.CucumberRunner">
         <methods>
-          <include name="createLead2"/>
-          <include name="createLead1"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="3"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- week5.day1.Attributes -->
+      </class> <!-- runner.CucumberRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
